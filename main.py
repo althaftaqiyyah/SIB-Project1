@@ -57,7 +57,7 @@ for item in data_json:
         )
 
 catalog_all = [books, magazines, dvd, cd]
-input_search = 'media'
+input_search = 'test'
 results = Catalog(catalog_all).search(input_search)
 
 for index, result in enumerate(results, start=1):
